@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<head>
+    <header>
+        <a href="index.html" class="logo">Toko Bangunan</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="about_toko.php" class="">About</a></li>
+                <li><a href="product.html" class="">Produk</a></li>
+                <li><a href="bukutamu.php" class="">Buku Tamu</a></li>
+
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".menu-toggle").click(function(){
+                $(".menu-toggle").toggleClass("active")
+                $("nav").toggleClass("active")
+            })
+        })
+    </script> 
+</head>
+<body>
+    <section class="banner">
+        <h2><a href="product.html">SELAMAT DATANG DI WEBSITE TOKO BANGUNAN</a></h2>
+    </section>    
+</body>
+<footer>
+    <div class="footertop">
+        <div class="medsos">
+            <ul>
+            <li><a href="#"><img src="fb.png" width="25px" height="25px"></a></li>
+			<li><a href="#"><img src="tw.png" width="25px" height="25px"></a></li>
+			<li><a href="#"><img src="ig.png" width="25px" height="25px"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerbottom">
+        <div class="copyright">
+            <h4 style="margin-top: 0px;"><br>Toko Bangunan Copyright&copy 2022</br></h4>
+        </div>
+    </div>
+</footer>
+</html>
